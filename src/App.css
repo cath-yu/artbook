@@ -1,7 +1,59 @@
 html, body, #root {
-  background-color: #AABFE5;
-  overflow: hidden;
+    height: 96vh;
+    background-color: #AABFE5;
+    overflow: hidden;
 }
 
 .main-page {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0.5rem;
+}
+
+.main-page h1 {
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2 {
+    font-family: Arial;
+    font-weight: 500;
+}
+
+.profile {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.profile-picture {
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-picture img {
+    height: 130%;
+    width: 130%;
+}
+
+.site-mode {
+    height: 3rem;
+    width: 3rem;
+    overflow: hidden;
+    border-radius: 50%;
+    cursor: pointer;
 }
