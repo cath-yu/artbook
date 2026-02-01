@@ -1,0 +1,57 @@
+.cover {
+    background-color: #BBA585;
+}
+
+.cover-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.book-binder {
+    height: 100%;
+    width: 2.1rem;
+    background-color: #6B1427;
+}
+
+.cover-sticker {
+    height: 14rem;
+    margin: 1rem;
+}
+
+.temp {
+    background-color: #F4EAD0;
+}
+
+.blank {
+    background-color: #F4EAD0;
+}
+
+.blank-content {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.arrow {
+    width: 15rem;
+    margin: 0.5rem;
+}
+
+.back {
+    background-color: #BBA585;
+}
+
+.back-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.back-sticker {
+    height: 10rem;
+    margin: 1rem;
+}

@@ -1,4 +1,4 @@
-html, body, #root {
+body {
     height: 96vh;
     background-color: #AABFE5;
     overflow: hidden;
@@ -17,6 +17,11 @@ html, body, #root {
     font-family: Helvetica;
     font-size: 40px;
     font-weight: 700;
+    margin: 0rem;
+}
+
+.main-page h1 a {
+    color: black;
 }
 
 .header {
@@ -28,16 +33,19 @@ html, body, #root {
 .header h2 {
     font-family: Arial;
     font-weight: 500;
+    margin: 0rem;
+    cursor: default;
 }
 
 .profile {
     display: flex;
+    align-items: center;
     gap: 0.8rem;
 }
 
 .profile-picture {
-    height: 4rem;
-    width: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +64,10 @@ html, body, #root {
     overflow: hidden;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.artbook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -4,8 +4,9 @@ A web app to display your illustrations in an interactive sketcbook!
 
 # TODO
 
-- [ ] basic website layout
-- [ ] flip through sketchbook
+- [x] basic website layout
+- [x] flip through sketchbook
+- [ ] add illustrations
 - [ ] gallery photo album
-- [ ] dark mode
+- [x] dark mode
 - [ ] music :3

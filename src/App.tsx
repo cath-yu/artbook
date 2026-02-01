@@ -1,9 +1,37 @@
-import './App.css';
+// REACT
+import { useEffect, useState } from "react";
 
-import Profile from "./assets/cacawtus.png"
-import Moon from "./assets/Moon.svg"
+// COMPONENTS
+import Book from "./Book";
+
+// ASSETS
+import Moon from "./assets/Moon.svg";
+import Profile from "./assets/Profile.png";
+import Sun from "./assets/Sun.svg";
+
+// CSS
+import "./App.css";
 
 function App() {
+    const [lightMode, setLightMode] = useState(true);
+    
+    useEffect(() => {
+        const backgroundColour = lightMode ? "#AABFE5" : "#3D495E";
+        const textColour = lightMode ? "black" : "white";
+
+        document.body.style.backgroundColor = backgroundColour;
+        document.body.style.color = textColour;
+
+        const element = document.querySelector('.main-page h1 a');
+        if (element) {
+            (element as HTMLElement).style.color = textColour;
+        }
+    }, [lightMode]);
+
+    const handleSiteMode = () => {
+        setLightMode(prev => !prev);
+    }
+
     return (
         <div className="main-page">
             <div className="header">
@@ -14,12 +42,18 @@ function App() {
                     <h2>cacaw</h2>
                 </div>
 
-                <div className="site-mode">
-                    <img src={Moon}/>
+                <div className="site-mode" onClick={handleSiteMode}>
+                    <img src={lightMode ? Moon : Sun}/>
                 </div>
             </div>
 
-            <h1>@cacawtus</h1>
+            <h1>
+                <a href="https://x.com/cacawtus">@cacawtus</a>
+            </h1>
+            <div className="artbook">
+                <Book/>
+            </div>
+            
         </div>
     )
 }
