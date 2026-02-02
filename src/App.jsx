@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 // COMPONENTS
-import Book from "./Book";
+import Book from "./Book.jsx";
 
 // ASSETS
 import Moon from "./assets/Moon.svg";
@@ -24,7 +24,7 @@ function App() {
 
         const element = document.querySelector('.main-page h1 a');
         if (element) {
-            (element as HTMLElement).style.color = textColour;
+            element.style.color = textColour;
         }
     }, [lightMode]);
 
