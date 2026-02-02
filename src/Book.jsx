@@ -51,20 +51,12 @@ export default function Book() {
         <HTMLFlipBook 
             width={500}
             height={600}
-            size={"fixed"}
             autoSize={false}
             usePortrait={false}
-            startPage={0}
             showCover={true}
-            drawShadow={true}
             maxShadowOpacity={0.6}
             flippingTime={750}
-            mobileScrollSupport={true}
-            clickEventForward={true} 
-            useMouseEvents={true} 
             swipeDistance={0} 
-            showPageCorners={true} 
-            disableFlipByClick={false}
         >
             <div className="cover">
                 <div className="cover-content">
