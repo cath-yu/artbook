@@ -1,0 +1,167 @@
+.page-content-start {
+    height: 600px;
+    display: flex;
+    justify-content: start;
+}
+
+.page-content-end {
+    height: 600px;
+    display: flex;
+    justify-content: end;
+}
+
+.page-gojo2 {
+    overflow: hidden;
+}
+
+.page-content-gojo img {
+    height: 600px;
+    display: flex;
+}
+
+.page-content-gojo2 img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-500px);
+    object-fit: cover;
+}
+
+.page-reze {
+    background-color: rgb(166, 163, 175);
+}
+
+.page-street {
+    background-color: rgb(35, 37, 71);
+}
+
+.page-gojo3 {
+    background-color: rgb(168, 220, 208);
+}
+
+.page-makima {
+    background-color: rgb(32, 27, 31);
+}
+
+.page-dokja {
+    overflow: hidden;
+}
+
+.page-content-dokja img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-120px);
+}
+
+.page-content-dokja2 img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-620px);
+    object-fit: cover;
+}
+
+.page-mostima {
+    background-color: rgb(109, 137, 152);
+}
+
+.page-look-back {
+    background-color: rgb(127, 151, 187);
+}
+
+.page-hu-tao {
+    background-color: rgb(123, 73, 69);
+}
+
+.page-arturia {
+    background-color: rgb(238, 243, 250);
+}
+
+.page-frieren2 {
+    background-color: rgb(248, 251, 255);
+    overflow: hidden;
+}
+
+.page-content-frieren img {
+    height: 600px;
+    display: flex;
+    transform: translateX(45px);
+}
+
+.page-content-frieren2 img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-455px);
+    object-fit: cover;
+}
+
+.page-lake {
+    background-color: rgb(1, 1, 14);
+    overflow: hidden;
+}
+
+.page-content-lake img {
+    height: 600px;
+    display: flex;
+    transform: translateX(70px);
+}
+
+.page-content-lake2 img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-430px);
+    object-fit: cover;
+}
+
+.page-inori {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.page-content-inori img {
+    height: 600px;
+    display: flex;
+}
+
+.page-content-inori2 img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-500px);
+    object-fit: cover;
+}
+
+.page-miku {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.page-content-miku img {
+    height: 600px;
+    display: flex;
+    transform: translateX(72px);
+}
+
+.page-content-miku2 img {
+    height: 600px;
+    display: flex;
+    transform: translateX(-428px);
+    object-fit: cover;
+}
+
+.page-mostima2 {
+    background-color: rgb(213, 218, 231);
+}
+
+.page-shu {
+    background-color: rgb(241, 240, 244);
+}
+
+.page-miku2 {
+    background-color: rgb(13, 14, 13);
+}
+
+.page-carlotta {
+    background-color: rgb(229, 217, 213);
+}
+
+.page-misa {
+    background-color: rgb(212, 212, 212);
+}

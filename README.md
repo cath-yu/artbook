@@ -6,7 +6,7 @@ A web app to display your illustrations in an interactive sketcbook!
 
 - [x] basic website layout
 - [x] flip through sketchbook
-- [ ] add illustrations
+- [x] add illustrations
 - [ ] gallery photo album
 - [x] dark mode
 - [ ] music :3
