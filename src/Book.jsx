@@ -61,247 +61,247 @@ export default function Book() {
             <div className="cover">
                 <div className="cover-content">
                     <div className="book-binder"/>
-                    <img className="cover-sticker" src={Sticker}/>
+                    <img className="cover-sticker" src={Sticker} loading="lazy"/>
                 </div>
             </div>
             
             <div className="page">
                 <div className="page-content">
-                    <img className="yae" src={Yae}/>
+                    <img className="yae" src={Yae} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content-end">
-                    <img src={Yae2}/>
+                    <img src={Yae2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Gojo}/>
+                    <img src={Gojo} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Frieren}/>
+                    <img src={Frieren} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-gojo2">
                 <div className="page-content-gojo">
-                    <img src={Gojo2}/>
+                    <img src={Gojo2} loading="lazy"/>
                 </div>
             </div>
             <div className="page-gojo2">
                 <div className="page-content-gojo2">
-                    <img src={Gojo2}/>
+                    <img src={Gojo2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-reze">
                 <div className="page-content-start">
-                    <img src={Reze}/>
+                    <img src={Reze} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-street">
                 <div className="page-content">
-                    <img src={StreetLight}/>
+                    <img src={StreetLight} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-gojo3">
                 <div className="page-content-end">
-                    <img src={Gojo3}/>
+                    <img src={Gojo3} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-makima">
                 <div className="page-content">
-                    <img src={Makima}/>
+                    <img src={Makima} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-dokja">
                 <div className="page-content-dokja">
-                    <img src={Dokja}/>
+                    <img src={Dokja} loading="lazy"/>
                 </div>
             </div>
             <div className="page-dokja">
                 <div className="page-content-dokja2">
-                    <img src={Dokja}/>
+                    <img src={Dokja} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-mostima">
                 <div className="page-content-end">
-                    <img src={Mostima}/>
+                    <img src={Mostima} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-look-back">
                 <div className="page-content">
-                    <img src={LookBack}/>
+                    <img src={LookBack} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-hu-tao">
                 <div className="page-content">
-                    <img src={HuTao}/>
+                    <img src={HuTao} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-arturia">
                 <div className="page-content-end">
-                    <img src={Arturia}/>
+                    <img src={Arturia} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content-start">
-                    <img src={Reflection}/>
+                    <img src={Reflection} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Dusk}/>
+                    <img src={Dusk} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-frieren2">
                 <div className="page-content-frieren">
-                    <img src={Frieren2}/>
+                    <img src={Frieren2} loading="lazy"/>
                 </div>
             </div>
             <div className="page-frieren2">
                 <div className="page-content-frieren2">
-                    <img src={Frieren2}/>
+                    <img src={Frieren2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-lake">
                 <div className="page-content-lake">
-                    <img src={Lake}/>
+                    <img src={Lake} loading="lazy"/>
                 </div>
             </div>
             <div className="page-lake">
                 <div className="page-content-lake2">
-                    <img src={Lake}/>
+                    <img src={Lake} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-inori">
                 <div className="page-content-inori">
-                    <img src={Inori}/>
+                    <img src={Inori} loading="lazy"/>
                 </div>
             </div>
             <div className="page-inori">
                 <div className="page-content-inori2">
-                    <img src={Inori}/>
+                    <img src={Inori} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-miku">
                 <div className="page-content-miku">
-                    <img src={Miku}/>
+                    <img src={Miku} loading="lazy"/>
                 </div>
             </div>
             <div className="page-miku">
                 <div className="page-content-miku2">
-                    <img src={Miku}/>
+                    <img src={Miku} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content-start">
-                    <img src={Ocean}/>
+                    <img src={Ocean} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Coffin}/>
+                    <img src={Coffin} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Exusiai}/>
+                    <img src={Exusiai} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-mostima2">
                 <div className="page-content-start">
-                    <img src={Mostima2}/>
+                    <img src={Mostima2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Carlotta}/>
+                    <img src={Carlotta} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-shu">
                 <div className="page-content">
-                    <img src={Shu}/>
+                    <img src={Shu} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Makise}/>
+                    <img src={Makise} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Makise2}/>
+                    <img src={Makise2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-miku2">
                 <div className="page-content">
-                    <img src={Miku2}/>
+                    <img src={Miku2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Reze2}/>
+                    <img src={Reze2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Exusiai2}/>
+                    <img src={Exusiai2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content-end">
-                    <img src={Frieren3}/>
+                    <img src={Frieren3} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-carlotta">
                 <div className="page-content">
-                    <img src={Carlotta2}/>
+                    <img src={Carlotta2} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page-misa">
                 <div className="page-content-end">
-                    <img src={Misa}/>
+                    <img src={Misa} loading="lazy"/>
                 </div>
             </div>
 
             <div className="page">
                 <div className="page-content">
-                    <img src={Mostima3}/>
+                    <img src={Mostima3} loading="lazy"/>
                 </div>
             </div>
 
